@@ -1,7 +1,10 @@
-const apple = require("./apple");
-const banana = require("./banana");
-const mango = require("./mango");
+var figlet = require("figlet");
 
-let fruits = [apple,banana,mango];
-
-module.exports = fruits;
+figlet("Hello World!!", function (err, data) {
+  if (err) {
+    console.log("Something went wrong...");
+    console.dir(err);
+    return;
+  }
+  console.log(data);
+});
