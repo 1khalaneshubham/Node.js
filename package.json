@@ -1,29 +1,15 @@
 {
-  "name": "yallist",
-  "version": "4.0.0",
-  "description": "Yet Another Linked List",
-  "main": "yallist.js",
-  "directories": {
-    "test": "test"
-  },
-  "files": [
-    "yallist.js",
-    "iterator.js"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "tap": "^12.1.0"
-  },
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "This is my Project",
+  "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js --100",
-    "preversion": "npm test",
-    "postversion": "npm publish",
-    "postpublish": "git push origin --all; git push origin --tags"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/isaacs/yallist.git"
-  },
-  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
-  "license": "ISC"
+  "author": "Mr.Shubham Khalane",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.8.0",
+    "give-me-a-joke": "^0.5.1"
+  }
 }
